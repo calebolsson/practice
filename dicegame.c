@@ -1,8 +1,8 @@
 #include "dicegame.h"
 
 int getRandomNumber(int min, int max) {
-    //your code goes here
-    return 0; //erase this
+    
+    return (rand() % max) + min;
 }
 
 ROUNDTYPE getRoundType() {
